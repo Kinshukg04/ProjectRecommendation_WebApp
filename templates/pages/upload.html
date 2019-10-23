@@ -1,8 +1,12 @@
-{% extends "layout.html" %}
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Product Recommendation</title>
+{% endblock %}
 
 {% block body %}
-	
-	<div class="input-group mb-3">
+
+<div class="input-group mb-3">
   <div class="input-group-prepend">
     <span class="input-group-text">Upload</span>
   </div>
@@ -42,4 +46,5 @@
   </div>
 </div>
 	
+
 {% endblock %}
